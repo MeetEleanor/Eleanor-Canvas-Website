@@ -128,6 +128,16 @@ body::before{
   width:32px;border-radius:4px;background:var(--blue-primary);
 }
 
+/* ===== PARTICLE CANVAS ===== */
+.particle-canvas{
+  position:absolute;
+  inset:0;
+  z-index:15;
+  pointer-events:none;
+  width:100%;
+  height:100%;
+}
+
 /* ===== CANVAS CONTENT ELEMENTS ===== */
 .cv-item{
   position:absolute;
